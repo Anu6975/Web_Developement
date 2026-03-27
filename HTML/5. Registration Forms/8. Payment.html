@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Page</title>
+</head>
+<body>
+
+    <h1 style="background-color:yellow;">Payment</h1>
+
+    <form>
+
+        <!-- Order Summary -->
+        <h3>Order Summary</h3>
+        <p>Application Form Fee</p>
+        <p><b>Total Amount: ₹500</b></p>
+
+        <hr>
+
+        <!-- Payment Options -->
+        <h2>Select Payment Method</h2>
+
+        <!-- UPI -->
+        <h4>UPI</h4>
+        <input type="radio" name="payment"> Pay via UPI <br><br>
+        UPI ID: <input type="text" placeholder="example@upi"><br><br>
+
+        <hr>
+
+        <!-- Card Payment -->
+        <h4>Credit / Debit Card</h4>
+        <input type="radio" name="payment"> Pay via Card <br><br>
+
+        Card Number: <input type="text" maxlength="16"><br><br>
+        Expiry Date: <input type="month"><br><br>
+        CVV: <input type="password" maxlength="3"><br><br>
+
+        <hr>
+
+        <!-- Net Banking -->
+        <h4>Net Banking</h4>
+        <input type="radio" name="payment"> Select Bank <br><br>
+
+        <select>
+            <option>--Select Bank--</option>
+            <option>SBI</option>
+            <option>HDFC</option>
+            <option>ICICI</option>
+            <option>Axis Bank</option>
+        </select>
+
+        <hr>
+
+        <!-- Offers -->
+        <h4>Offers</h4>
+        <p>10% cashback on UPI payments</p>
+        <p>No cost EMI on Credit Cards</p>
+
+        <hr>
+
+        <!-- Buttons -->
+        <button type="submit"><a href="9. submit.html"> Pay ₹500</a></button>
+        <br><br>
+
+        <a href="7. Photo_Sign_Upload.html">Back</a>
+
+    </form>
+
+</body>
+</html>

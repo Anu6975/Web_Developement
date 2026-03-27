@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#f3e6ff">
+
+
+<marquee behavior="alternate" direction="right"><h1> <mark style="background-color: #dab3ff;"><u> Scholarship Form </u></mark></h1></marquee>
+
+<center>
+    <form>
+    <fieldset style="background-color: #ffffff; width: 600px; border: 3px double #a94dff; padding: 30px;">
+        
+        <legend><b>Personal and Educational Details</b></legend>
+
+        
+
+        <table border="0" cellpadding="5">
+
+            <tr>
+                <td><label for="Fullname"> FullName</label></td>
+                <td><input type="text" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="DOB">Date of Birth</label></td>
+                <td><input type="date"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Contact"> Contact</label></td>
+                <td><input type="tel" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="Address"> Address</label></td>
+                <td><textarea name="Address" cols="20" rows=""></textarea></td>
+            </tr>
+            
+            <tr>
+                <td><label for="Gender">Gender</label></td>
+                <td>
+                    <input type="radio" name="Gender" value="Female" required>Female
+                    <input type="radio" name="Gender" value="Male">Male
+                    <input type="radio" name="Gender" value="Other">Other
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label for="Education">Educational Details</label></td>
+                <td>
+                    <select name="" id="">
+                    <option value=""></option>
+                    <option value="10th">10th</option>
+                    <option value="12th">12th</option>
+                    <option value="UnderGraduate">UnderGraduate</option>
+                    <option value="PostGraduate">PostGraduate</option>
+                    <option value="PHD">PHD</option>
+                    </select>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label for="PreviousYear">Previous Year Percent</label></td>
+                <td><input type="number" min="0" max="100" placeholder="eg.77" required></td>
+            </tr>
+            
+            <tr>
+                <td><label for="FamilyIncome">Family Annual Income</label></td>
+                <td><input type="number" required></td>
+            </tr>
+            
+            <tr>
+                <td><label for="incomeCertificate">Income Certificate (Pdf) </label></td>
+                <td><input type="file" accept=".Pdf" required></td>
+            </tr>
+            
+            <tr>
+                <td><label for="Religion"> Religion</label></td>
+                <td>
+                    <input type="radio" name="Religion" value="Hindu">Hindu
+                    <input type="radio" name="Religion" value="Christian">Christian
+                    <input type="radio" name="Religion" value="Other">Other
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label for="Caste"> Caste</label></td>
+                <td><input type="text" required></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><label for="Signature"> Signature</label></td>
+                <td><input type="File" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="Photo">Photo</label></td>
+                <td><input type="file" required></td>
+            </tr>
+
+            <tr>
+                <td><br><input type="checkbox" id="decl" required>
+                <label for="decl">I declare that all information is correct.</label></td>
+            </tr>
+
+        
+        <br><br>
+
+        <tr>
+            <td colspan="2" align="center">
+                <br><br>
+                <button type="Submit">Submit</button>
+                <button type="Reset">Reset</button></td>
+        </tr>
+
+        </table>
+
+    </fieldset>
+
+    </form>
+</center>
+
+</body>
+</html>
