@@ -1,0 +1,160 @@
+<!-- 
+ 
+
+1. Inline css
+
+<p style="color: red"> Welcome </p>
+        -> where color is property of style and red is value
+        -> properties are seperated by semicolon at the last property no need for semicolon
+        -> properties are always unique and values doesn't matter
+        -> is not Preffered in projects for SEO purpose
+        
+        
+2. Internal CSS
+
+
+<style>
+    p{
+        color: aqua;
+        background: white;
+    }
+</style>
+        -> written inside the style tag
+        -> could apply to all the p tags unless we use class, id
+        
+
+3. External CSS
+
+
+        -> we create .html and .css files seperately and links both files using - <link rel="stylesheet" type="text/css" href="style.css"> where rel= relation which is compulasary to write
+
+
+if all the css types are used on the one tag preference is-
+    1. inline 2. internal 3. external
+
+what happens when all three css are used? 
+
+
+CSS Selectors
+
+1. Element / Tag Selector   : this selects the html element by name ex. h1 ; it applies the style to all the h1 tag
+2. Id Selector              : selects id attribute of an html element to select the specific element; it should be unique within page ex. <h1 id="abc"> call the id by the #abc in css file
+3. Class Selector           : we can use it in multiple tags of html and to add the style to multiple tags 
+4. Universal Selector       : selects all the elements on the page; syntax is to use "*" in style tag
+5. Groups Selector          : selects all the elements with same style definitions; used to minimize the code; commas are used to seperate each selector in grouping ; we can use id, class, tags together in group selector
+
+Class and Group Selectors are used widely in projects all the above are selectors are called simple selectors in CSS
+
+CSS Properties
+
+1. Background-color and
+   color                    : 1. has red, green, blue - rgb values range is rgb(0, 0, 0) to rgb (255, 255, 255)
+                              2. can use color codes in css starting with #, ex. #0000 (black) #ffffff (white) repeated codes lke this can be written as #000 or #fff 
+                              3. can directly write color name
+
+                              Ex. color: red;
+                                  color: #000; / #0000;
+                                  color: rgb(255, 255, 255);    ->(same all three methods can be used to assign the background color)
+
+
+
+        -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <!-- <style>
+    p{
+        color: beige;
+        background: red;
+    }
+
+</style>
+
+<style>
+    h2{
+        color: beige;
+        background: red;
+    }
+
+</style> -->
+<!-- <style>
+    #abc2{
+        color: blueviolet;
+    }
+
+    p{
+        color: lightcoral;
+    }
+    .abc3{
+        color: crimson;
+        background-color: black;
+        
+    }
+
+    .abc1{
+        color: yellowgreen;
+
+    }
+
+    .heading1{
+        color: coral;
+
+    }
+    .heading2{
+        background-color: black;
+    }
+
+    *{
+        /* font-family: 'Times New Roman', Times, serif; */
+        font-family: 'Courier New', Courier, monospace;
+    }
+</style> -->
+
+
+<style>
+    h1, h2, .abc3{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    #abc2, .heading2{
+        background-color: blanchedalmond;
+        color: crimson;
+    }
+
+    body{
+        background-image: url("https://images.jdmagicbox.com/rep/b2b/wall-paper/wall-paper-1.jpg");
+        background-size: 50%;
+    }
+</style>
+
+</head>
+<body>
+
+    <h1 id="abc2">Welcome to my Page!!</h1>
+
+    <h2 class="abc1 abc3">My name is Anuja</h2>
+    <!-- <h2 class="abc1">Good Morning</h2> -->
+
+    <p class="heading2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dicta esse voluptatibus laudantium in placeat culpa iure rem quae? Eveniet et vitae, molestias odio nam harum neque dolor maiores inventore?</p>
+    <br>
+    <p class="abc3"> <b>This is my first CSS design </b></p>
+
+    <!-- <p style="color: beige; background-color:red;"> Welcome to my First CSS file!!!! </p>
+    <p style="color: beige; background-color:skyblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit magni similique sequi at, eligendi esse suscipit sapiente veritatis! Eos quibusdam accusantium dolores perspiciatis numquam, maxime impedit inventore quod atque?</p> -->
+
+
+
+    <h1 class="heading1">
+        Hello!! Welcome!
+    </h1>
+</body>
+</html>
