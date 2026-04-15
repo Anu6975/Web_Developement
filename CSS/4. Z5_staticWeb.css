@@ -1,0 +1,17 @@
+*{
+    background-color: black;
+}
+
+.lang_imgs{
+    display: flex;
+}
+
+#buy_plan{
+     background-color: white;
+    color: black;
+}
+
+#buy_plan i {
+    background-color: transparent;
+    color: black;
+}
