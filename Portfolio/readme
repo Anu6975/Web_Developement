@@ -1,0 +1,38 @@
+1. Hero
+Name
+One strong line (pick one of yours)
+
+2. About
+Your line + 2–3 supporting lines
+Where you are + what you’re learning
+
+3. Skills
+Keep it real:
+HTML
+CSS (learning)
+Testing (learning)
+
+
+4. Projects - “Things I’ve Built (so far)”
+Even if empty:
+“Currently working on building my first projects.”
+“More coming soon…”
+
+5. Contact Me → “Let’s talk
+Email
+LinkedIn (later if needed)
+
+
+:root {
+  --primary: #a6c1ee;
+  --secondary: #fbc2eb;
+
+  --bg-main: #ffffff;
+  --bg-soft: #f5f7fa;
+
+  --text-dark: #2d2d2d;
+  --text-light: #666;
+
+  --card-bg: #ffffff;
+  --border-soft: #e0e0e0;
+}

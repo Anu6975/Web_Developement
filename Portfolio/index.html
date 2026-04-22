@@ -5,24 +5,185 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY PORTFOLIO</title>
     <link rel="stylesheet" href="style.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
-    <!-- 00b4d8 00b4d8 90e0ef ade8f4 -->
-    <section class="Header">
-        <nav>
-            <ul>
-                <li><a href="#">Anuja</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg sticky-top custom-nav">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Anuja</a>
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link" href="#intros">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#academics">My Background</a></li>
+      <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+      <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+      <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav> 
+    
 
-            <ul>
-                <li><a href="#"> <i class="bi bi-house"> Home </i> </a></li>
-                <li><a href="#"><i class="bi bi-person-lines-fill">About</i></a></li>
-                <li><a href="#"><i class="bi bi-person-circle">Contact</i></a></li>
-            </ul>
-        </nav>
-    </section>
+<section id="intros" class="introduction">
+  <div class="intro-card">
+    
+    <div class="intro-text">
+      <h1>
+        Trying things. <span>Breaking things.</span><br>
+        Learning from both.
+      </h1>
+
+      <p>
+        I’m exploring web development and software testing, learning by building projects and improving with each step.
+      </p>
+
+      <div class="intro-buttons">
+        <a href="#contact"> <button class="btn-primary">Get In Touch</button></a>
+        <a href="#projects"> <button class="btn-secondary">View Projects</button></a>
+      </div>
+    </div>
+
+    <div class="intro-image">
+      <img src="its me 01.jpeg" alt="">
+    </div>
+
+  </div>
+</section>
+
+
+<section id="academics" class="academics">
+  <div class="section_container">
+    <h1 class="section-title">My Background</h1>
+
+    <div class="acad-card">
+      
+      <div class="academic-list">
+        <h2>Academics</h2>
+        <ul>
+          <li><strong>Education:</strong> Computer Engineering (2025)</li>
+          <li><strong>University:</strong> Vishwakarma University</li>
+          <li><strong>CGPA:</strong> 7.89</li>
+          <li><strong>SSC:</strong> BFHS, Ahilyanagar (76%)</li>
+        </ul>
+      </div>
+
+      <div class="academic-quote">
+        <p>
+          Started with curiosity, stayed for the challenge.  
+          Still learning, still improving, figuring things out along the way.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section id="skills" class="skills-section">
+  <div class="section_container">
+    <h1 class="section-title">What I Work With</h1>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <h3>Languages</h3>
+        <p>C, C++, Java, Python</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Web</h3>
+        <p>HTML, CSS, JavaScript</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Tools</h3>
+        <p>GitHub, SQL, IntelliJ, PyCharm, VS Code</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Concepts</h3>
+        <p>Data Structures, OOP, ML Basics</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="projects" class="projects-section">
+  <div class="section_container">
+    <h1 class="section-title">Things I’ve Built</h1>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <h2>Agricultural Supply Chain Optimization</h2>
+
+        <p class="project-desc">
+          Built a predictive system to estimate crop demand and improve supply chain decisions using machine learning models and real-time data.
+        </p>
+
+        <p class="tech">Python • Machine Learning • Streamlit</p>
+
+        <div class="project-actions">
+          <button class="btn-primary">Live Demo</button>
+          <button class="btn-secondary">Code</button>
+        </div>
+      </div>
+
+
+      <div class="project-card">
+        <h2>To-Do List Web App</h2>
+
+        <p class="project-desc">
+          Designed a responsive task management app to organize daily activities with real-time updates and a clean user interface.
+        </p>
+
+        <p class="tech">HTML • CSS • JavaScript</p>
+
+        <div class="project-actions">
+          <button class="btn-primary">Live Demo</button>
+          <button class="btn-secondary">Code</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="section_container">
+      <h1 class="section-title">Get In Touch</h1>
+      <p class="contact-subtext">
+      Have an opportunity, idea, or just want to connect? I’m always open to meaningful conversations.
+    </p>
+
+
+    <div class="contact-card">
+      <div class="contact-info">
+        <p><strong>Email:</strong> anujabadve04@gmail.com</p>
+        <p><strong>Phone:</strong> +91 70206 76251</p>
+
+        <div class="socials">
+          <a href="https://github.com/Anu6975"><i class="fa-brands fa-github"></i>GitHub</a>
+          <a href="https://www.linkedin.com/in/anuja-badve-aa0501234/"><i class="fa-brands fa-square-linkedin"></i>LinkedIn</a>
+        </div>
+      </div>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message"></textarea>
+
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+
+    </div>
+
+  </div>
+</section>
+
 </body>
 </html>
