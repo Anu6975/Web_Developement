@@ -1,0 +1,182 @@
+<!-- 
+ 
+        ***Bootstrap***
+
+1. bootstrap is a library of CSS 
+2. there is a collection of pre-defined classes
+            for example- container
+3. main purpose of bootstrap is to help us to make a responsive webpage meaning it will adjust according to our screen size
+ -->
+
+
+
+
+ <!--  
+ 
+        ****Bootstrap Container****
+
+ it is used to the tags which has height and width option
+it is used to set the content's margin dealing with the responsive behaviours of your layout
+
+contains the row elements and the row elements are the container of columns (known as grid system)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+allows u[to 12 columns
+
+containrs class is used to create boxed content -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="row">
+
+    <div class="col-sm-3"> Div1</div>
+    <div class="col-sm-3"> Div2</div>
+    <div class="col-sm-3"> Div3</div>
+    <div class="col-sm-3"> Div4</div>
+
+    </div>
+<br><br>
+    <div class="btn-group">
+
+        <button type="button" class="btn btn-primary"> Primary</button>
+        <button type="button" class="btn btn-secondary"> Secondary</button>
+        <button type="button" class="btn btn-success"> Success</button>
+        <button type="button" class="btn btn-danger"> Danger</button>
+        <button type="button" class="btn btn-warning"> Warning</button>
+        <button type="button" class="btn btn-info"> Info</button>
+        <button type="button" class="btn btn-light"> Light</button>
+        <button type="button" class="btn btn-dark"> Dark</button>
+        <button type="button" class="btn btn-link"> Link</button>
+
+    </div>
+    <br><br>
+    <div>
+        <button type="button" class="btn btn-outline-primary"> Primary</button>
+        <button type="button" class="btn btn-outline-secondary"> Secondary</button>
+        <button type="button" class="btn btn-outline-success"> Success</button>
+        <button type="button" class="btn btn-outline-danger"> Danger</button>
+        <button type="button" class="btn btn-outline-warning"> Warning</button>
+        <button type="button" class="btn btn-outline-info"> Info</button>
+        <button type="button" class="btn btn-outline-light"> Light</button>
+        <button type="button" class="btn btn-outline-dark"> Dark</button>
+        <button type="button" class="btn btn-outline-link"> Link</button>
+    </div>
+
+<br> <br>
+    <table  class="table table-bordered table-striped  table-hover">
+        <tr class="table-success">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+         
+        </tr>
+
+        <tr class="table-secondary">
+            <td>4</td>
+            <td class="table-danger">5</td>
+            <td>6</td>
+           
+        </tr>
+
+        <tr class="table-success">
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+
+
+     <!--nav bar-->
+    <nav class="navbar navbar-expand-lg bg-dark" style="position: sticky; top:0; color: white;">
+        <article class="container-fluid">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Contact</a>
+            <a href="#" class="nav-link">Gallery</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Login</a>
+        </article>
+    </nav>
+
+
+    
+
+
+    <!--alert-->
+    <div class="alert alert-danger alert-dismissible">
+        <b>This is harmful to your device...</b>
+        <button class="btn btn-close" data-bs-dismiss="alert"></button>
+    </div>
+
+
+
+    <!--carousel-->
+
+    <section class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_hybrid&w=740&q=80 " alt="" height="500px" width="100%">
+            <!-- <div> -->
+                <h1>hello</h1>
+                <p>coming soon</p>
+            <!-- </div> -->
+        </div>
+
+        <div class="carousel-item">
+            <img src="https://img.freepik.com/free-photo/closeup-shot-beautiful-butterfly-with-interesting-textures-orange-petaled-flower_181624-7640.jpg?semt=ais_hybrid&w=740&q=80" alt="" height="500px" width="100%">
+        </div>
+
+        </div>
+    </section>
+
+<br><br>
+
+    <!--form -->
+    <div class="mb-4">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" class="form-control-xxl">
+    </div>
+    <div class="mb-4">
+         <label for="pass" class="form-label">Passward:</label>
+        <input type="password" class="form-control-xxl">
+    </div>
+    <button class="btn btn-primary">Submit</button>
+
+<br><br><br>
+
+
+    <!--spinner-->
+
+    <div class="spinner-border text-muted"></div><br>
+    <div class="spinner-border text-success"></div><br>
+    <div class="spinner-grow text-dark"> </div> <span>loading..</span><br>
+    <div class="spinner-grow text-warning"></div>
+
+    <br><br><br><br>
+
+
+
+    <!--imgage-->
+    <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/flower-729510_1280.jpg" alt="" class="rounded" height="400px" width="300px">
+    <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/flower-729510_1280.jpg" alt="" class="rounded-circle" height="400px" width="300px">
+    <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/flower-729510_1280.jpg" alt="" class="img-thumbnail" height="400px" width="300px">
+    <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/flower-729510_1280.jpg" alt="" class="img-fluid">
+
+ <br>
+    <!--progress bar-->
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-animated progress-bar-striped bg-success" style="width: 40%;"></div>
+    </div>
+</body>
+</html>
+

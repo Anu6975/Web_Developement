@@ -1,0 +1,47 @@
+nav{
+    height:75px ;
+    width: 100%;
+    background-color: black;
+}
+
+a{
+    color: aliceblue;
+    
+    text-decoration: none;
+}
+
+
+#div1{
+    float: left;
+    width: 40%;
+    
+}
+
+
+#div2{
+    
+    height: 35px;
+    width: 50%;
+    justify-content: space-around;
+    /* align-items: center; */
+    display: flex;
+    float: right;
+    gap: 10px;   
+
+    
+  
+
+}
+a:hover{
+    font-size: 20px;
+    color: aqua;
+}
+
+h1{
+    color: orangered;
+  
+    align-self: center;
+    display: flex;
+    gap: 10px;
+}
+

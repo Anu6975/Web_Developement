@@ -1,0 +1,83 @@
+/* Text Properties */
+
+p{
+    color: plum;
+    text-indent: 150px;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-style: double;
+    text-transform: capitalize;
+    word-spacing: 3px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 10px 10px 5px gray;
+    letter-spacing: 2px;
+}
+
+/* font Properties */
+
+#p1{
+
+    color: black;
+    text-decoration: solid;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+/* Background Properties */
+
+section{
+    color:aqua;
+
+
+    height: 1000px;
+    width: 100%;
+
+    /* background-color: lightskyblue;
+    background: linear-gradient(pink, lightskyblue, pink); */
+
+    background-image: url("https://r1.ilikewallpaper.net/iphone-wallpapers/download/22336/Fantasy-Butterfly-Jar-iphone-wallpaper-ilikewallpaper_com_640.jpg"), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLofg2HcPLmK9dEpDqnnuNfii7JGbXi9b42Q&s") ;
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* margin: 25px; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    padding-top: 100px;
+    padding-bottom: 300px;
+    padding-top: 200px;
+    padding-right: 300px;
+
+    border: 30px;
+
+}
+
+/* *Position Property* which helps us to set the position of an html Element
+1. Relative value 2. Absolute Value 3. Static Value  4. Fixed Value 5. Sticky Value
+
+1. Position Relative            :   it helps to move the html element from its original direction
+2. Positional Absolute Relative :   It Helps to move HTML Elements towards viewport edge (top side of webpage)
+3. Position Static Value        :   Position Static which will helps to the html elements keep remains same and it will fix in a same position. There is no change in position
+4. Position Fixed Value         :   Which will moves the html element towards the viewport edge and it is attached to the screen.
+5. Posotion Sticky Value        :   Its a combination of relative and absolute position values.
+
+
+
+*Flex Properties* it will helps to make a responsive webpage
+
+1. Display Flex             : It will convert inline element into block level
+2. Flex Ram                 : it Specifies whether the flex items should wrap or not
+3. Justify Content          : The Property is used to align flex items in a horizontal direction
+4. Align Items              : This property used to to align flex item in a vertical direction */

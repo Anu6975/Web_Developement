@@ -1,0 +1,27 @@
+img{
+    height: 400px;
+    width: 400px;
+
+}
+
+section{
+    height: 400px;
+    width: 400px;
+    /* border-style: dashed; */
+}
+
+.overlay{
+
+
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(rgb(220, 178, 185), rgb(220, 55, 83), rgb(225, 159, 170));
+    position:absolute;
+    top: 9px;
+    opacity: 0;
+
+}
+
+section:hover .overlay{
+    opacity: 0.5;
+}

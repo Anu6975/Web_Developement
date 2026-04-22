@@ -1,0 +1,15 @@
+img{
+    height: 400px;
+    width: 400px;
+    float: right;
+    box-shadow: 30px 30px 30px 30px skyblue;
+    /* border-radius: 30px;
+
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px; */
+
+    border-radius: 300px;
+    margin-right: 360px;
+    margin-top: 90px;
+
+}

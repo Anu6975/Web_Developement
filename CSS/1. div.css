@@ -1,0 +1,28 @@
+section{
+    /* height: 45vh; */
+    min-height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+}
+
+.card{
+    border-style: dotted;
+    height: 320px;
+    width: 270px;
+    background-color: beige;
+     box-sizing: border-box;
+    
+}
+
+img{
+    height: 230px;
+    width: 250px;
+    padding-left: 5px;
+
+}
