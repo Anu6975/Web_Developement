@@ -1,2 +1,9 @@
-# Web_Developement
-A growing collection of web development tasks and projects showcasing frontend development skills and structured UI design as part of my software testing course.
+This repository contains my hands-on practice in frontend development.
+
+🔹 HTML – Structure and layout building  
+🔹 CSS – Styling, positioning, and responsiveness  
+🔹 JavaScript – Basic interactivity and DOM manipulation  
+
+Also includes a personal portfolio project built from scratch.
+
+Currently improving UI design and strengthening my frontend fundamentals through consistent practice.
